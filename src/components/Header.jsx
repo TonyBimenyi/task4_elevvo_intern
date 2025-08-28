@@ -5,7 +5,7 @@ export default function Header() {
     <header className="p-4 flex items-center justify-between">
       {/* Left side */}
       <Link to="/" className="text-3xl font-bold">
-        Job Track App
+        Job Tracker App
       </Link>
 
       {/* Right side */}
