@@ -17,7 +17,7 @@ navigate('/');
 
 return (
 <Container>
-<h1 className="text-2xl font-semibold mb-3">Add Job</h1>
+{/* <h1 className="text-2xl font-semibold mb-3">Add Job</h1> */}
 <JobForm onSave={handleSave} />
 </Container>
 );

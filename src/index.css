@@ -73,6 +73,19 @@ button:focus-visible {
   }
 }
 
+/* Reduce margin on smaller devices */
+@media (max-width: 640px) {
+  body {
+    margin: 3px;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    margin: 10px;
+  }
+}
+
 /* src/index.css */
 @tailwind base;
 @tailwind components;

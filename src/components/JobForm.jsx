@@ -111,7 +111,7 @@ export default function JobForm({ initial = null, onSave }) {
         </button>
         <button
           type="submit"
-          className="px-4 py-2 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition"
+          className="px-4 py-2 bg-green-600 text-white rounded-lg shadow hover:bg-blue-700 transition"
         >
           Save
         </button>

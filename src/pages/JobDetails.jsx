@@ -29,7 +29,7 @@ navigate('/');
 return (
 <Container>
 <div className="flex items-center justify-between mb-3">
-<h1 className="text-2xl font-semibold">{job.company} — {job.title}</h1>
+<h1 className="text-2xl text-black font-semibold">{job.company} — {job.title}</h1>
 <div className="text-sm text-gray-600">{job.status}</div>
 </div>
 
@@ -40,7 +40,7 @@ return (
 </div>
 
 
-<h2 className="text-lg font-medium mb-2">Edit</h2>
+{/* <h2 className="text-lg text-black font-medium mb-2">Edit</h2> */}
 <JobForm initial={job} onSave={(data) => { handleEdit(data); alert('Saved'); }} />
 
 

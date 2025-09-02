@@ -40,13 +40,13 @@ export default function ImportExport() {
         onClick={exportJSON}
         className="flex items-center gap-2 px-4 py-2 border border-gray-300 rounded-lg text-sm font-medium text-gray-700 bg-white shadow-sm hover:bg-gray-100 transition"
       >
-        <Download size={16} className="text-gray-600" />
+        <Upload size={16} className="text-gray-600" />
         Export
       </button>
 
       {/* Import */}
       <label className="flex items-center gap-2 px-4 py-2 border border-gray-300 rounded-lg text-sm font-medium text-gray-700 bg-white shadow-sm hover:bg-gray-100 cursor-pointer transition">
-        <Upload size={16} className="text-gray-600" />
+        <Download size={16} className="text-gray-600" />
         Import
         <input
           type="file"
